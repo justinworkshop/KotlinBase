@@ -9,4 +9,6 @@ package com.example.kotlinbase.sample05.s01
  */
 fun main() {
     var person = Person(22)
+
+    var person1 = Person()
 }

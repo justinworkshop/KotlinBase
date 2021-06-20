@@ -27,6 +27,7 @@ fun main() {
     }
     println(max)
 
+    // when对应Java的switch
     val n = 5
     when (n) {
         1 -> println("1")

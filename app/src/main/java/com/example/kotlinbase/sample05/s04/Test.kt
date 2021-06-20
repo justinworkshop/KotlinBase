@@ -10,7 +10,7 @@ package com.example.kotlinbase.sample05.s04
 class Test {
     val i = "AA"
 
-    // 嵌套类
+    // 嵌套类，不可以访问外部类
     class Sub {
         fun show() {
             println()

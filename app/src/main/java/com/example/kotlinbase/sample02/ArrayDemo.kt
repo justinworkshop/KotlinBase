@@ -9,6 +9,7 @@ package com.example.kotlinbase.sample02
  */
 fun main() {
     // 方式1
+    val array = arrayOf<String>("a", "b") // 可以推导范型类型
     val numbers = arrayOf(1, 2, 3, 4, 5)
     println(numbers[0])
 
@@ -18,6 +19,12 @@ fun main() {
 
     // 方式2
     val numbers2 = Array(5) { value: Int -> (value + 1000) }
+
+    // lambda -> 匿名函数
+    val numbers3 = Array(5, fun(value: Int): Int {
+        return (value + 1000)
+    })
+
     for (value in numbers2) {
         println(value)
     }

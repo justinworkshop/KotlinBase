@@ -8,6 +8,7 @@ package com.example.kotlinbase.sample05.s04
  * Description:
  */
 class NetManager {
+    // object是只有一个实例
     object Holder {
         val instance = NetManager()
     }

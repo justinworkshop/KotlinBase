@@ -9,6 +9,8 @@ package com.example.kotlinbase.sample05.s03
  */
 fun main() {
     val user = User(11, "aa", 'M')
+    user.id = 12
+
     // _表示拒收
     val (myID, _, mySex) = user.copy()
 
